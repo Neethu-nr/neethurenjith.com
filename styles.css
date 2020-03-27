@@ -1,28 +1,68 @@
-h1 {
-    color: whitesmoke;
-    padding: 2%;
-}
 body {
-    background-color: black;
-    font-family: Helvetica, sans-serif;
+    background-color: rgb(58, 58, 58);
+    font-family: Helvetica, Arial, sans-serif;
     color: burlywood;
     margin: 0;
+    padding: 0;
 }
-section {
-    background-color: cornsilk;
-    color: darkblue;
-    display: flex;
-    flex-direction: row;
-    padding: 2px;
+
+header {
+    background-color: black;
+    background-size: 100%;
+    background-position: center;
+    height: 10px;
+    padding: 50px 50px 50px 0px;
+    text-align: center;
 }
-div {
-    background-color: darkgray;
-    padding: 5%;
-    margin:auto;
+
+header a {
+    color: yellowgreen;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 150px;
+}
+header .logo a {
+    background-image: url("images/logo.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    position: relative;
+    top: -220px;
+    text-indent: -99999999px;
+}
+nav ul{
+    margin:0;
+    list-style-type: none;
+    text-align: center;
+}
+nav li {
+    display: inline-block;
+    margin-right: auto;
+    text-align: center;
+}
+section .main {
+    height: 300px;
+    color:black;
+    background-color: rgb(58, 58, 58);
+    position: relative;
+}
+.features {
+    background-color: rgb(58, 58, 58);
+    padding-top: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.features img {
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: gray 0 0 10px;
+    width: 200px;  
+    background-color:black;
 }
 ul {
-    margin:0;
-    padding:0;
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -30,8 +70,9 @@ ul {
 li{
     padding: 10px;
 }
-button {
+
+footer{
     background-color: black;
-    color: whitesmoke;
-    border-radius: 10px;
+    color: greenyellow;
+    text-align: center;
 }
